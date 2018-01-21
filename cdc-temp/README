@@ -1,0 +1,4 @@
+Read the internal temperature and write it to the host via USB
+
+$ make flash
+$ cat /dev/ttyACM0
