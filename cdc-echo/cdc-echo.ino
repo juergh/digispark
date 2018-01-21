@@ -14,8 +14,6 @@ void setup() {
 }
 
 void loop() {
-	int i;
-	
 	if (SerialUSB.available()) {
 		SerialUSB.write(SerialUSB.read());
 	} else {
@@ -26,7 +24,6 @@ void loop() {
 		 * replace your delays - ie. delay(100); - with
 		 * SerialUSB.delays ie. SerialUSB.delay(100);
 		 */
-		SerialUSB.delay(5);
 		SerialUSB.refresh();
 	}
 }

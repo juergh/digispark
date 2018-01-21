@@ -1,3 +1,5 @@
+Read from the host via USB and write it back
+
 $ make flash
 $ cat /dev/ttyACM0
 $ echo foo > /dev/ttyACM0
